@@ -39,7 +39,7 @@ if (adventurous) {
 if (luckyNumber == 2 && adventurous === true) {
     console.log('Roll the dice!');
 } else {
-    console.log('Slow your roll!');
+    console.log('Slow your roll!'); //unsure if neccessary
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -67,7 +67,7 @@ if (pets < friendsPets) {
 } else if (pets > friendsPets) {
     mostPets = pets;
 } else {
-    mostPets = 'Me and my friend have ' + pets + ' pets!'
+    mostPets = 'Me and my friend both have ' + pets + ' pets!'
 }
 console.log(mostPets);
 // 17 - Write a *switch* statement that logs:
