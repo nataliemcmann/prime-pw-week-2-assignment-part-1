@@ -13,19 +13,24 @@ let luckyNumber = 3;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
-console.log('My names is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
+console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'kahdi pakora';
+console.log(food);
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 1;
+console.log(pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 3;
+console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable
 pets += 2;
+console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
+console.log(allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if (adventurous) {
@@ -39,7 +44,7 @@ if (adventurous) {
 if (luckyNumber == 2 && adventurous === true) {
     console.log('Roll the dice!');
 } else {
-    console.log('Slow your roll!'); //unsure if neccessary
+    console.log('No dice!');
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
